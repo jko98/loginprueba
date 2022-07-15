@@ -1,0 +1,218 @@
+html {
+    background: url(https://www.xtrafondos.com/wallpapers/resized/casa-en-paisaje-montanoso-y-nevado-10306.jpg?s=large) no-repeat center center fixed;
+    background-size: cover;
+    overflow: hidden;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -moz-background-size: cover;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: auto;
+
+}
+
+#login-btn {
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    padding: 30px;
+    cursor: pointer;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 50%;
+    background: rgba(3, 3, 3, .8);
+    opacity: 0.4;
+    box-shadow: 10px 10px 30px #000;
+
+}
+
+#container {
+    width: 265px;
+    height: 250px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 5px;
+    background: rgba(3, 3, 3, 0.25);
+    box-shadow: 1px 1px 50px #000;
+    display: none;
+
+}
+
+.closs-btn {
+    cursor: pointer;
+    line-height: 18px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 10px;
+    opacity: .2;
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    position: absolute;
+    top: 3px;
+    right: 3px;
+}
+
+.closs-btn:hover {
+    opacity: .5;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: #ddd;
+    text-shadow: 3px 3px 10px #000;
+}
+
+button,
+input {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    font-size: 15px;
+    margin: 9px auto;
+    padding: 8px;
+    display: block;
+    text-decoration: none;
+    border-radius: 6px;
+    border: none;
+    position: relative;
+    background: rgba(3, 3, 3, .1);
+    color: white;
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 3px 3px 10px #333;
+    background: rgba(3, 3, 3, .18);
+}
+
+button {
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    padding: 4px 8px;
+    background: rgba(107, 255, 3, 0.3);
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+::-webkit-input-placeholder {
+    color: white;
+}
+
+:-moz-placeholder {
+    color: red;
+}
+
+::-moz-placeholder {
+    color: rgb(243, 60, 60);
+}
+
+:-ms-input-placeholder {
+    color: #333;
+}
+
+#recordar-container {
+    position: relative;
+    margin: -5px 20px;
+}
+
+.checkbox {
+    cursor: pointer;
+    border-radius: 5px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    padding: 5px;
+    position: relative;
+    background: rgba(3, 3, 3, .2);
+    -webkit-appearance: none;
+}
+
+.checkbox:checked:active {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05),
+        inset 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.checkbox:checked {
+    background: rgba(3, 3, 3, .4);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05),
+        inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05),
+        inset 15px 10px -12px rgba(255, 255, 255, 0.5);
+    color: white;
+}
+
+.checkbox:checked:after {
+    font-size: 10px;
+    position: absolute;
+    top: 0px;
+    left: 4px;
+    color: white;
+    content: '\2714';
+}
+
+#recuerdame {
+    position: absolute;
+    font-size: 13px;
+    color: rgba(255, 255, 255, .5);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    top: 7px;
+    left: 20px;
+}
+
+#olvidado {
+    position: absolute;
+    right: 0px;
+    top: 8px;
+    cursor: pointer;
+    color: rgba(244, 253, 248, 0.452);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+#olvidado:hover {
+    color: rgba(255, 255, 255, .6);
+}
+
+#container-olvidado {
+    width: 260px;
+    height: 180px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background: rgba(3, 3, 3, .25);
+    border-radius: 10px;
+    box-shadow: 1px 1px 50px #000;
+    display: none;
+}
+.orange-btn{
+    background: rgba(87, 190, 255,.5);
+}
